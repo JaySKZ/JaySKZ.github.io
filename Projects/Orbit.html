@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alex Vazquez - Software Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/Logo.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style2.css" rel="stylesheet" />
+  <script src="../js/scrolling.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+  <!---Navigation Bar--------------------------------------->
+  <!---Navigation Bar--------------------------------------->
+  <body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><img src="../img/Logoo.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a href="#Detumbling">Detumbling</a></li>
+          <li><a href="#Kalman">Kalman Filter</a></li>
+          <li><a href="#IMU">STM32 & IMU's</a></li>
+          <li><a href="#PCB">PCB</a></li>
+          <li><a href="https://www.linkedin.com/in/alex-vazquez" target="_blank"
+          class="fa fa-linkedin"></a></li>
+          <li><a href="https://github.com/Alexvz2" target="_blank"
+          class="fa fa-github"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!---Cover Page"ClusterPi"--------------------------------------->
+  <div id="Detumbling" style="padding-top:20px;"class="clear-fix"></div>
+  <div class="padding">
+  <div  id="PiProject" class="container">
+    <h1 class="text-center"style="font-size:50px;">Detumbling Algorithm</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 text-center">
+        <h1 >Detumbling Controller</h1>
+        <p class="lead">Currently Implementating in C++ a detumbling algorithm using PID Control theory and B-dot controllers. The Proportional Integral Derivative Controller utilizes the errors in order to regulate and control the stiring
+        of the satellite using a B-Dot Methodology. The B-Dot methodology requires to know the precise location of the satellite in order to interact with the known magnetic field at that point with the magnetorquers and set the satellite in an equilibrium or desired position.</p>
+        <span class="label label-default">C++</span>
+        <span class="label label-primary">PID</span>
+        <span class="label label-success">MATLAB+Simulink</span>
+        <span class="label label-warning">IGRF</span>
+        <span class="label label-info">ARM</span>
+        <a href="https://github.com/UBCOrbit" target="_blank"
+        class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <img  src="../img/sat.png" style="height:350px; width:350px;">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+    <hr id="ServerPi" class="my-4">
+  </div>
+  <div class="clear-fix"></div>
+<!---Cover Page"ClusterPi"--------------------------------------->
+<div id="Kalman" style="padding-top:15px;"class="clear-fix"></div>
+<div class="padding">
+<div  id="PiProject" class="container">
+  <h1 class="text-center"style="font-size:50px;">Kalman Filter</h1>
+  <br>
+  <div class="row">
+    <div class="col-md-6 col-sm-6">
+      <img  src="../img/funnel.png" style="height:350px; width:350px;">
+    </div>
+    <div class="col-md-6 col-sm-6 text-center">
+      <h1 >Kalman Filter Implementation</h1>
+      <p class="lead">Implemantation of Kalman Filter Protocol designed by Wyatt into C++ code.</p>
+      <span class="label label-default">C++</span>
+      <span class="label label-primary">STM32</span>
+      <span class="label label-success">MATLAB+Simulink</span>
+      <span class="label label-info">KeilArm</span>
+      <a href="https://github.com/UBCOrbit" target="_blank"
+      class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+  <hr id="ServerPi" class="my-4">
+</div>
+<div class="clear-fix"></div>
+<!---Cover Page"ServerPi"--------------------------------------->
+<div id="IMU" style="padding-top:15px;"class="clear-fix"></div>
+<div class="padding">
+<div id="PiProject" class="container">
+  <h1 class="text-center"style="font-size:50px;">STM32 & IMU</h1>
+  <br>
+  <div class="row">
+    <div class="col-md-6 col-sm-6 text-center">
+      <h1 >Implemantation of IMU controller in STM32</h1>
+      <p class="lead"> Implemantation of acquisition module for data readings from IMU(Adafruit LSDS04M) & SunSensor and
+        Control and Communication module with magnetorquers and reaction wheels through I2C connection.</p>
+      <span class="label label-default">C++</span>
+      <span class="label label-primary">embedded systems</span>
+      <span class="label label-success">STM32</span>
+      <span class="label label-info">Adafruit IMU</span>
+      <span class="label label-warning">Controls</span>
+      <a href="https://github.com/Alexvz2/STM32-IMU-Reader" target="_blank"
+      class="fa fa-github" style="color: #534E4E; font-size: 20px;"> Project Repository</a>
+    </div>
+    <div class="col-md-6 col-sm-6">
+      <img  src="../img/chip.png" style="height:350px; width:350px;">
+    </div>
+  </div>
+</div>
+</div>
+<div>
+  <hr id="ComputerPi"  class="my-4">
+</div>
+<div class="clear-fix"></div>
+<!---Cover Page"ComputerPi"--------------------------------------->
+<div id="PCB" style="padding-top:15px;"class="clear-fix"></div>
+<div class="padding">
+<div  id="PiProject" class="container">
+  <h1 class="text-center"style="font-size:50px;">ADCS PCB Design</h1>
+  <br>
+  <div class="row">
+    <div class="col-md-6 col-sm-6">
+      <img src="../img/pcb.png" style="height:350px; width:350px;">
+    </div>
+    <div class="col-md-6 col-sm-6 text-center">
+      <h1 >SunSensor PCB Design and Fabrication</h1>
+      <p class="lead"> Design and Creation of ADCS's SunSensor PCB with the use of Altium Designer.</p>
+      <span class="label label-default">Altium Designer</span>
+      <span class="label label-primary">Circuitry</span>
+      <span class="label label-success">PCB Manufacturing and Assembly</span>
+      <a href="https://github.com/UBCOrbit" target="_blank"
+      class="fa fa-folder" style="color: #534E4E; font-size: 20px;"> Documentation Link</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="clear-fix"></div>
+<!---Footer/About--------------------------------------->
+
+  <footer id="connect" class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Me</h3>
+
+        <h4>a.vazquez@alumni.ubc.ca</h4>
+        <br>
+        <h4>alexvzvz28@gmail.com</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="https://www.linkedin.com/in/alex-vazquez" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/Alexvz2" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.youtube.com/channel/UCc53B-qSII8JWD1PluKYzfQ" target="_blank" class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-4">
+        <img  src="../img/gif/vz2.gif" class="icon">
+      </div>
+    </div>
+  </footer>
+<!---Copy rights--------------------------------------->
+  <footer id="Copyrights" class="text-center fixed-bottom">
+    <p>&copy; Alex Vazquez, 2018.</p>
+  </footer>
+</body>
+</html>
+<!---Animations----->
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.navbar', {
+  duration: 1400,
+  origin: 'bottom'
+});
+
+sr.reveal('.showcase-down', {
+  duration: 2000,
+  origin: 'top',
+  distance: '150px',
+});
+sr.reveal('.showcase-up', {
+  duration: 2000,
+  origin: 'bottom',
+  distance: '200px',
+});
+
+sr.reveal('.showcase-right', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px',
+});
+sr.reveal('.showcase-left', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px',
+});
+
+sr.reveal('.logo', {
+  duration: 2500,
+  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  viewFactor:0.2,
+  });
+
+</script>
