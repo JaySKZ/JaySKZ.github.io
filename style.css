@@ -85,8 +85,6 @@ p{
   text-decoration: none;
 }
 
-
-}
 .padding{
   padding: 5px 0;
   background-color: #F8F8FF
@@ -253,7 +251,7 @@ footer{
 #motorcycle{
   height: 100%;
   width: 100%;
-  background-size:
+  /* background-size: */
 }
 #connect h3{
   text-decoration: underline;
