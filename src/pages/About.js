@@ -2,29 +2,24 @@ import { useEffect } from "react";
 
 function About() {
   useEffect(() => {
-    document.title = "quinn's life (〃 ω 〃)";
+    document.title = "jason's life";
   }, []);
 
   return (
     <div>
       <img src="/me.jpg" alt="it's me!" width="200" height="auto" />
-      <p>
-        <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>
-      </p>
 
       <hr class="dashed" />
 
       <p>
-        hey hey hey! i'm someone who's a bit all over the place. i love all
-        things tech, art, fashion, walkable cities, food, and so much more.
-        sometimes i feel like a sponge, going around and learning as much as i
-        can from the amazing people around me &#129533;.
-        <br />
-        <br />
-        i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm
-        currently on the quest for a perfect cup of coffee. my existence in so
-        many things really helped shape the learner that i am today, and the one
-        i'll be tomorrow!
+        hi, glad you came to visit and I'm happy to meet you!
+        
+        i'm a tech lover, i dabble in finance, and i'm usually overly caffeinated
+        as a result my hobby of working really well at 3am. i'm a serial adventurer
+        and thrill seeker who loves excitement and novelty. i have an extensive 
+        history of competitive sports, and as a result an overflow of energy almost always.
+        i believe that the purpose of life lies in the challenge and the exploration,
+        and i will forever be chasing that!
       </p>
 
       <p> </p>
@@ -33,28 +28,20 @@ function About() {
         <b>currently</b>
       </p>
       <p>
-        i'm a 3rd year student at{" "}
-        <a href="https://www.mcmaster.ca/" target="_blank" class="clickable">
-          McMaster University
+        i'm in my final semester of{" "}
+        <a href="https://www.engphys.ubc.ca/" target="_blank" class="clickable">
+          Engineering Physics at UBC
         </a>
-        , leading undergrad computing and engineering labs.
+        ,currently taking coursework in stat mech and advanced optics, while building
+        a wirelessly powered drone for my senior capstone.
         <br />
         <br />
-        i'm interested in accessibility, security, and all creative
-        intersections of tech and art &#127912;.
+        i'm interested in robotics, controls, and any area that includes coding, soldering,
+        building and testing something physical and cool.
         <br />
         <br />
-        this summer i'll be working at{" "}
-        <a href="https://about.google/" target="_blank" class="clickable">
-          Google
-        </a>{" "}
-        to make docs, sheets, and slides more accessible 🦯!
-        <br />
-        <br />
-        if you're in nyc, let's grab a coffee together :)
-        {/* <br /> */}
-        {/* no plans this summer yet, still looking for an internship that
-        will help me grow and have an impact on something i care about! */}
+        i will be graduating in May, and i'm actively seeking full-time or temporary software
+        integration, validation, or similar roles!
       </p>
 
       <p> </p>
@@ -62,70 +49,63 @@ function About() {
       <p>
         <b>previously</b>
       </p>
-      <p>did some internships:</p>
+      <p>did some incredible internships:</p>
       <ul>
         <li>
-          wrote some NASA code for the Canadian Space Agency (
+          integrating steering software at
           <a
-            href="https://github.com/nasa/cFS"
+            href="https://www.tesla.com/"
             class="clickable"
             target="_blank"
           >
-            cFS
+            Tesla
           </a>
-          )
+          which included limit driving in the coolest cars
         </li>
         <li>
-          worked on purolator's b2c shipping application as a pm (
+          helped build predictive agriculture algorithms for
           <a
-            href="https://www.purolator.com/en/business-solutions/technology-solutions/track-manage-deliveries-receivers"
+            href="https://www.verdiag.com/"
             class="clickable"
             target="_blank"
           >
-            PYW
+            Verdi AG
           </a>
-          )
         </li>
         <li>
-          wrote test suites for Equitable Bank's android app (
+          design electronics for next-gen ultrasound transducers at
           <a
-            href="https://apps.apple.com/ca/app/eq-bank-mobile-banking/id1039432211"
+            href="https://sonusmicrosystems.com/"
             class="clickable"
             target="_blank"
           >
-            EQ Bank Mobile Banking
+            Sonus Microsystems
           </a>
-          )
+        </li>
+        <li>
+          wrote control code and designed electronics at 
+          <a
+            href="https://www.precisionnanosystems.com/"
+            class="clickable"
+            target="_blank"
+          >
+            PNI
+          </a>
+          which ended up in mRNA vaccine producing machines!
         </li>
       </ul>
       <p></p>
-      <p>and did some clubs:</p>
+      <p>and did some non-technical gigs:</p>
       <ul>
         <li>
-          wrote some satellite code for{" "}
+          sold thousands of awesome apparel across campus as the first
+          Canadian campus manager of
           <a
-            href="https://mcmasterneudose.ca/"
+            href="https://www.freshprints.com/"
             target="_blank"
             class="clickable"
           >
-            McMaster NEUDOSE
-          </a>
-        </li>
-        <li>
-          led the marketing team for the biggest design competition in 2021 with
-          the{" "}
-          <a
-            href="https://www.mcmasterdesignleague.com/"
-            class="clickable"
-            target="_blank"
-          >
-            McMaster Design League
-          </a>
-        </li>
-        <li>
-          curated the attendee experience for{" "}
-          <a href="https://deltahacks.com/" target="_blank" class="clickable">
-            Deltahacks
+            Fresh Prints
           </a>
         </li>
       </ul>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function Resume() {
   useEffect(() => {
-    document.title = "quinn's resume (๑•̀ㅁ•́๑)✧";
+    document.title = "jason's resume";
   }, []);
 
   return (
