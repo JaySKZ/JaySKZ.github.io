@@ -51,24 +51,21 @@ function Home() {
 
   return (
     <div>
-      <h2>Hi, I'm Jason!</h2>
+      <h2>hi, i'm jason!</h2>
       <p>
-        Welcome to my little nook of the internet!
+        welcome to my little nook of the internet!
       </p>
       <p>
-        I'm a student at the University of British Columbia in beautiful Vancouver, Canada, 
-        where I'm finishing up my degree in Engineering Physics and specializing in controls.
-        Outside of school
-
-        i'm a student based in Toronto &#127809; where i study software
-        engineering. When I'm not massively lost in theoretical physics, you can most likely find me
+        i'm a student at the University of British Columbia in beautiful Vancouver, Canada, 
+        where i'm finishing up my degree in Engineering Physics and specializing in controls.
+        When i'm not massively lost in theoretical physics, you can most likely find me
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
         .
       </p>
       <p>
-        I'm always down for an interesting conversation, reach out to 
+        i'm always down for an interesting conversation, reach out to 
         me any time at{" "}
         <a href="mailto:jasonzhou0404@gmail.com" class="clickable">
           jasonzhou0404@gmail.com
