@@ -5,9 +5,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
-import ASL from "./pages/blogs/ASL";
-import Log from "./pages/Log";
-import Blog from "./pages/blogs/Blogs";
+// import ASL from "./pages/blogs/ASL";
+// import Log from "./pages/Log";
+// import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
