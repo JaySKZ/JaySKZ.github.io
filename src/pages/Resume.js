@@ -7,19 +7,19 @@ function Resume() {
 
   return (
     <div>
-      <p>here's my resume（˶′◡‵˶）</p>
+      <p>here's my resume!</p>
       <hr class="dashed" />
 
       <iframe
-        src="https://drive.google.com/file/d/1yc55Az_3824yYQpjTEtzzf2fPfIyIgms/preview"
+        src="https://drive.google.com/file/d/1w_JDy6VEs477dsXtb0uqf0WI1N7_Y6BC/view?usp=sharing"
         width="640"
         height="825"
         allow="autoplay"
       ></iframe>
 
       <a
-        href="/Resume_Quinn_Ha.pdf"
-        download="Resume_Quinn_Ha.pdf"
+        href="/Zhou_ShengKun_Resume.pdf"
+        download="Zhou_ShengKun_Resume.pdf"
         class="clickable"
       >
         download
