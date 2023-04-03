@@ -7,7 +7,7 @@ function About() {
 
   return (
     <div>
-      <img src="/me.jpg" alt="it's me!" width="200" height="auto" />
+      <img src="/me.jpg" alt="getting the iron ring!" width="300" height="auto" />
 
       <hr class="dashed" />
 
