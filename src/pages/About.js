@@ -52,7 +52,7 @@ function About() {
       <p>did some incredible internships:</p>
       <ul>
         <li>
-          integrating steering software at
+          integrating steering software at {" "}
           <a
             href="https://www.tesla.com/"
             class="clickable"
@@ -60,10 +60,10 @@ function About() {
           >
             Tesla
           </a>
-          which included limit driving in the coolest cars
+          , which included limit driving in the coolest cars
         </li>
         <li>
-          helped build predictive agriculture algorithms for
+          helped build predictive agriculture algorithms for {" "}
           <a
             href="https://www.verdiag.com/"
             class="clickable"
@@ -73,7 +73,7 @@ function About() {
           </a>
         </li>
         <li>
-          design electronics for next-gen ultrasound transducers at
+          design electronics for next-gen ultrasound transducers at {" "}
           <a
             href="https://sonusmicrosystems.com/"
             class="clickable"
@@ -83,7 +83,7 @@ function About() {
           </a>
         </li>
         <li>
-          wrote control code and designed electronics at 
+          wrote control code and designed electronics at {" "}
           <a
             href="https://www.precisionnanosystems.com/"
             class="clickable"
@@ -91,7 +91,7 @@ function About() {
           >
             PNI
           </a>
-          which ended up in mRNA vaccine producing machines!
+          , which ended up in mRNA vaccine producing machines!
         </li>
       </ul>
       <p></p>
@@ -99,7 +99,7 @@ function About() {
       <ul>
         <li>
           sold thousands of awesome apparel across campus as the first
-          Canadian campus manager of
+          Canadian campus manager of {" "}
           <a
             href="https://www.freshprints.com/"
             target="_blank"
