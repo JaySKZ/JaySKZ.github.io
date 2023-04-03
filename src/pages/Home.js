@@ -58,7 +58,7 @@ function Home() {
       <p>
         i'm a student at the University of British Columbia in beautiful Vancouver, Canada, 
         where i'm finishing up my degree in Engineering Physics and specializing in controls.
-        When i'm not massively lost in theoretical physics, you can most likely find me
+        When i'm not massively lost in theoretical physics, you can most likely find me{" "}
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
