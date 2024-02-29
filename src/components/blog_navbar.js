@@ -5,14 +5,14 @@ import useTheme from "../theme";
 import { CSSTransition } from "react-transition-group";
 
 function BlogNavBar() {
-  const [theme, toggleTheme] = useTheme();
-  const [visible, setVisible] = useState(true);
+  // const [theme, toggleTheme] = useTheme();
+  // const [visible, setVisible] = useState(true);
 
-  const handleThemeChange = () => {
-    toggleTheme();
-    setVisible(false);
-    setTimeout(() => setVisible(true), 0);
-  };
+  // const handleThemeChange = () => {
+  //   toggleTheme();
+  //   setVisible(false);
+  //   setTimeout(() => setVisible(true), 0);
+  // };
 
   return (
     <div>
@@ -22,7 +22,7 @@ function BlogNavBar() {
           | <NavLink to="/projects">projects</NavLink> |{" "}
           <NavLink to="/log">logbook</NavLink> |{" "}
           <NavLink to="/resume">resume</NavLink> |{" "}
-          <CSSTransition
+          {/* <CSSTransition
             in={visible}
             appear={true}
             timeout={500}
@@ -31,7 +31,7 @@ function BlogNavBar() {
             <a onClick={handleThemeChange} className="fadeIn">
               {theme}
             </a>
-          </CSSTransition>
+          </CSSTransition> */}
         </nobr>
       </nav>
     </div>

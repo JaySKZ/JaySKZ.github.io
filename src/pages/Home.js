@@ -5,7 +5,6 @@ const hobbies = [
   "training Muay Thai",
   "being dragged on difficult hikes by my friends",
   "trying to survive the stock market",
-  "working on and flying my drones",
   "finding twisty roads to drive",
   "sabre fencing",
   "overanalyzing fantasy baseball",
@@ -53,19 +52,20 @@ function Home() {
     <div>
       <h2>hi, i'm jason!</h2>
       <p>
-        welcome to my little nook of the internet!
+        welcome to my little home on the internet!
       </p>
       <p>
-        i'm a student at the University of British Columbia in beautiful Vancouver, Canada, 
-        where i'm finishing up my degree in Engineering Physics and specializing in controls.
-        When i'm not massively lost in theoretical physics, you can most likely find me{" "}
+        i'm a student at the university of washington in beautiful and rainy seattle, 
+        where i'm pursuing my master's degree in aeronautics & astronautics and specializing in controls,
+        specifically robust controllers and swarm trajectory generation algorithms for drones/uavs.
+        when i'm not flying/crashing drones, you can most likely find me{" "}
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
         .
       </p>
       <p>
-        i'm always down for an interesting conversation, reach out to 
+        i'm always interested in conversations, collaborations, and broadening my horizons! please reach out to 
         me any time at{" "}
         <a href="mailto:jasonzhou0404@gmail.com" class="clickable">
           jasonzhou0404@gmail.com

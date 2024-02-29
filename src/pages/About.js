@@ -7,22 +7,43 @@ function About() {
 
   return (
     <div>
-      <img src="/me.jpg" alt="getting the iron ring!" width="300" height="auto" />
+      <img src="/me.jpg" alt="adventurin!" width="300" height="auto" />
 
       <hr class="dashed" />
 
       <p>
-        hi, glad you came to visit and I'm happy to meet you!
+        hi, glad you came to visit!
         
         i'm a tech lover, i dabble in finance, and i'm usually overly caffeinated
-        as a result my hobby of working really well at 3am. i'm a serial adventurer
-        and thrill seeker who loves excitement and novelty. i have an extensive 
-        history of competitive sports, and as a result an overflow of energy almost always.
-        i believe that the purpose of life lies in the challenge and the exploration,
-        and i will forever be chasing that!
+        as a result my brain peaking at 3am.
       </p>
 
       <p> </p>
+
+      <p>
+        <b>currently</b>
+      </p>
+      <p>
+        i'm in the first year of my master's at {" "}
+        <a href="https://www.aa.washington.edu/" target="_blank" class="clickable">
+          the department of aeronautics and astronautics at the university of washington
+        </a>
+        ,specializing in controls. my research focuses on the design of robust controllers
+        for quadcopters in complex aerodynamic conditions, and efficient trajectory optimization
+        algorithms for drone swarms. 
+        <br />
+        <br />
+        my interest is spurred by my belief in the possibilites that drones and uavs can unlock, and 
+        that robust and trustworthy controls is the main facilitator of this technology.
+        {/* <br />
+        <br />
+        i will be graduating in May, and i'm actively seeking full-time or temporary software
+        integration, validation, or similar roles! */}
+      </p>
+
+      <p> </p>
+
+      {/* <p> </p>
 
       <p>
         <b>currently</b>
@@ -44,12 +65,18 @@ function About() {
         integration, validation, or similar roles!
       </p>
 
-      <p> </p>
+      <p> </p> */}
 
       <p>
         <b>previously</b>
       </p>
-      <p>did some incredible internships:</p>
+      <p> i graduated with distinction from the {" "}
+        <a href="https://www.engphys.ubc.ca/" target="_blank" class="clickable">
+          department of engineering physics at ubc
+        </a>
+        ,where i took extensive coursework in mechatronics engineering, advanced physics,
+        and advanced mathematics, as well as electives in algorithms, controls, and machine learning.
+        I also was able to experience some incredible internships:</p>
       <ul>
         <li>
           integrating steering software at {" "}

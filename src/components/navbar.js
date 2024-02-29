@@ -22,7 +22,7 @@ function NavBar() {
         <NavLink to="/projects">projects</NavLink> <br />
         {/* <NavLink to="/log">logbook</NavLink> <br /> */}
         <NavLink to="/resume">resume</NavLink> <br />
-        <CSSTransition
+        {/* <CSSTransition
           in={visible}
           appear={true}
           timeout={500}
@@ -31,7 +31,7 @@ function NavBar() {
           <a onClick={handleThemeChange} className="fadeIn">
             {theme}
           </a>
-        </CSSTransition>
+        </CSSTransition> */}
       </nav>
     </div>
   );
